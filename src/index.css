@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,73 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  background: #ffcdd4;
+  width: 100%;
+}
+.header{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hr{
+  border: 1px solid #fff;
+}
+.first-container h3{
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 10%;
+  
+}
+
+.second-container{
+  display: flex;
+  flex-direction: row;
+}
+.first li{
+   list-style-type: none;
+   margin-bottom: 5px;
+}
+.first li button{
+  width: 40px;
+  height: 30px;
+  border: 1px solid #f1f1f1;
+  border-radius: 2px;
+}
+
+.second{
+  margin-left:-30px ;
+}
+.second li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+.second li button{
+  width: 250px;
+  height: 30px ;
+  cursor: pointer;
+  border: 1px solid #f1f1f1;
+  border-radius: 3px;
+
+  
+}
+.second li button:hover{
+  background: #755757;
+  color: white;
+}
+.alert{
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  color: #755757;
+  margin-left: 100px;
+  padding-top: 8px;
+  padding-left: 44px;
+  margin-bottom: -15px;
+  border-radius: 10px;
 }
